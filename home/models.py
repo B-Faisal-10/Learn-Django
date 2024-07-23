@@ -34,6 +34,7 @@ class Image(models.Model):
     def __str__(self):
         return self.image.name
     
+    # Stats model here
 
 class Statistics(models.Model):
     field_name = models.CharField(max_length=100)

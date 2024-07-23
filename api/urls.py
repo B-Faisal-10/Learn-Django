@@ -28,6 +28,8 @@ urlpatterns = [
     path("myimage/", MyImageViewSet.as_view({'get': 'list', 'post': 'create', 'patch': 'partial_update', 'delete': 'destroy'})),
     path('myimage/<int:pk>/image/<int:image_pk>/', MyImageViewSet.as_view({'patch': 'partial_update', 'delete': 'destroy' }), name='myimage-partial-update'),
     path('stats/',StatsView.as_view())
+
+    #commit
     
 
     

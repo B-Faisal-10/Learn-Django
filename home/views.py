@@ -15,6 +15,8 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework import generics
 
+#Commit
+
 
 class StatsView(generics.ListCreateAPIView):
     queryset=Statistics.objects.all()

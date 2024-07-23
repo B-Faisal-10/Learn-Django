@@ -104,3 +104,13 @@ class PeopleSerializer(serializers.ModelSerializer):
         #     raise serializers.ValidationError('age should be greater than 18')
         
         return data
+
+
+
+
+
+
+
+
+
+        # Commit
